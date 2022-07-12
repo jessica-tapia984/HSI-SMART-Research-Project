@@ -1,0 +1,28 @@
+#Pri
+Ke, 0, 5
+V, 0.01, 100
+Ka, 0, 5
+
+#Dif
+XP(1) = -Ka*X(1)
+XP(2) = Ka*X(1) - Ke*X(2)
+
+
+#Cov
+
+WT
+
+BMI
+
+AGE
+
+GENDER
+
+HEIGHT
+
+#Out
+Y(1) = X(2)/V
+
+#Err
+L=0.1
+0.1,0.1,0,0
